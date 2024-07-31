@@ -1,0 +1,76 @@
+
+.container {
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bgTransparent);
+}
+
+.row {
+    max-width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px #00000061;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.head h5 {
+    font-size: 1rem;
+    font-style:normal;
+    color: #076abbe4;
+    padding: 0.5rem;
+}
+.head i {
+    font-size: 1.6rem;
+    color: #515050;
+    cursor: pointer;
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+.formInputGroup {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.375rem;
+    padding:0.3rem;
+    background-color: #ffffffe4;
+}
+.formInputGroup label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #076abbe4;
+}
+.formInputGroup input[type=text],
+.formInputGroup input[type=number] {
+    width: 100%;
+    padding: 0.6rem 0.5rem;
+    border: 1px solid #cecdcd;
+    border-radius: 0.375rem;
+    outline-color: #1972bab6;
+}
+
+.buttonGroup {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorMessage {
+    color: var(--dangerLight);
+    font-size: 0.8rem;
+    font-style: italic;
+}

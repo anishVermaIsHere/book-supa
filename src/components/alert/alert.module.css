@@ -1,0 +1,36 @@
+
+.overlay {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    height: 100%;
+    background-color: var(--bgTransparent);
+}
+
+.alertBox {
+    height: 220px;
+    max-width: 450px;
+    min-width: 350px;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px var(--bgTransparent);
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alertActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    background-color: var(--dangerDark);
+    margin-right: 0.8rem;
+}
